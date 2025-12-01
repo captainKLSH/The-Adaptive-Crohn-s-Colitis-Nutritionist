@@ -121,7 +121,7 @@ I built this system using Python as the core language.
 
 - Deployment: The project is containerized and deployed on Hugging Face Spaces with a Gradio interface for easy public access.
 
-***Hugging Face Spaces:*** (Click here!!!)[https://huggingface.co/spaces/greyenigma/The-Adaptive-Crohns-and-Colitis-Nutritionist]
+***Hugging Face Spaces:*** [Click here!!!](https://huggingface.co/spaces/greyenigma/The-Adaptive-Crohns-and-Colitis-Nutritionist)
 
 ## 🛡️ Safety & Disclaimer
 
