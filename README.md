@@ -110,4 +110,4 @@ graph TD
 
 🛡️ Safety & Disclaimer
 
-**This is an AI prototype and not a replacement for***
+**This is an AI prototype and not a replacement for**
