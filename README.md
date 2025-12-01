@@ -81,7 +81,7 @@ To chat with the agent yourself:
 python project/app.py
 ```
 
-📂 File Structure
+## 📂 File Structure
 ```bash
 project/
 ├── agents/             # The brain of the operation
@@ -96,7 +96,7 @@ project/
 └── main_agent.py       # The conductor leading the agents
 ```
 
-📊 Logic Flow
+## 📊 Logic Flow
 ```bash
 graph TD
     User[User Input: 'My stomach hurts'] --> Planner
@@ -108,6 +108,21 @@ graph TD
     Warning --> Final[Response to User]
 ```
 
-🛡️ Safety & Disclaimer
+## Build
+I built this system using Python as the core language.
+
+- Orchestration: I used a custom class-based agent loop (or LangChain/LangGraph) to manage the state between agents.
+
+- Logic: The "brains" are powered by Large Language Models (LLMs) that interpret medical context.
+
+- Data Validation: I used Pydantic to enforce strict data structures (JSON) so agents communicate clearly without hallucinating formats.
+
+- Tools: The system connects to recipe APIs (Spoonacular/Edamam) and uses internal calculators for fiber estimation.
+
+- Deployment: The project is containerized and deployed on Hugging Face Spaces with a Gradio interface for easy public access.
+
+***Hugging Face Spaces:*** (Click here!!!)[https://huggingface.co/spaces/greyenigma/The-Adaptive-Crohns-and-Colitis-Nutritionist]
+
+## 🛡️ Safety & Disclaimer
 
 **This is an AI prototype and not a replacement for**
